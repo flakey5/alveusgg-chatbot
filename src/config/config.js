@@ -25,7 +25,7 @@ const useNewScheduler = true;
 /**
  * @type {Set<string>}
  */
-const useNewCommandSystem = new Set(['showchat', 'ptzstopaudio', 'ptzplayaudio', '']);
+const useNewCommandSystem = new Set(['showchat', 'ptzstopaudio', 'ptzplayaudio']);
 
 const groups = /** @type {const} */ ({
     admin: 0,
