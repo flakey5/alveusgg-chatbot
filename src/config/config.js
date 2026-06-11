@@ -4,7 +4,7 @@ const commandPrefix = devPrefix;
 
 const twitchChannelList = process.env.TWITCH_CHANNELS ?
     process.env.TWITCH_CHANNELS.split(",").map((channel) => channel.trim()) :
-    ["spacevoyage", "alveussanctuary", "alveusgg"];
+    ["spacevoyage"];
 
 const alveusTwitchID = process.env.ALVEUS_TWITCH_ID ?
     Number.parseInt(process.env.ALVEUS_TWITCH_ID) :
